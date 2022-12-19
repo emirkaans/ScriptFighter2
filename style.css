@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee+Spice&display=swap");
+
+@font-face {
+  font-family: myFont;
+  src: url(fonts/font2.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 188, 201);
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+.left-side {
+  width: 250px;
+  background-color: rgb(71, 0, 0);
+  height: 100vh;
+  float: left;
+}
+
+.right-side {
+  width: 250px;
+  background-color: rgb(71, 0, 0);
+  height: 100vh;
+  float: left;
+}
+
+.main-menu {
+  width: 830px;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #000b71,
+    #62007a,
+    #9d007b,
+    #cf0075,
+    #f92a6a
+  );
+  float: left;
+}
+
+.section {
+  width: 240px;
+  height: 20vh;
+  background-image: linear-gradient(
+    to right top,
+    #000b71,
+    #62007a,
+    #9d007b,
+    #cf0075,
+    #f92a6a
+  );
+  margin: 0 auto;
+}
+
+.resim {
+  width: 120px;
+  height: 20vh;
+  margin: 1px 1px 0 1px;
+  float: left;
+}
+
+.skills {
+  padding: 15px;
+  text-align: center;
+  color: rgb(216, 255, 126);
+}
+
+.choose {
+  margin: 0;
+  text-align: center;
+}
+
+.ch-ch {
+  border-radius: 12px;
+  padding: 3px;
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+  width: 60px;
+  margin: 0;
+}
+
+.hero-name {
+  color: white;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+button:hover {
+  color: white;
+  background-color: crimson;
+}
+
+.header {
+  color: rgb(143, 195, 34);
+  color: linear-gradient(
+    0deg,
+    rgba(143, 195, 34, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+  font-family: myFont;
+}
+
+.players {
+  width: 300px;
+  height: 280px;
+  float: left;
+  background-color: wheat;
+  border-radius: 20px;
+}
+
+#player--1 {
+  margin: 30px 2px 2px 25px;
+}
+
+#player--2 {
+  margin: 30px 2px 2px 2px;
+}
+
+.player--name {
+  font-size: 23px;
+  text-align: center;
+  margin: 4px;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.player--images {
+  height: 170px;
+  border-radius: 20px;
+  margin: 4px;
+}
+
+.hp-section {
+  text-align: center;
+  margin: 9px;
+  font-size: 22px;
+}
+
+.fight {
+  width: 170px;
+  height: 250px;
+  float: left;
+  text-align: center;
+  margin: 30px 1px 1px 1px;
+}
+
+#fight-btn {
+  margin-top: 50px;
+  width: 120px;
+  height: 50px;
+  font-size: 19px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#new-btn {
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  font-size: 19px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#music-btn {
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  font-size: 19px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#burak {
+  width: 200px;
+  margin: 40px 10px 0 40px;
+  border-radius: 90px;
+  float: left;
+}
+
+.burak-div {
+  float: left;
+}
+
+.balon1 {
+  width: 500px;
+  height: 50px;
+  background-color: wheat;
+  float: left;
+  border-radius: 200px;
+  margin: 40px 40px 1px 40px;
+  color: black;
+  text-align: center;
+  text-shadow: #cf0075;
+  font-size: 28px;
+}
+
+.balon2 {
+  background-color: wheat;
+  height: 150px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  float: left;
+  border-radius: 30px;
+  margin: 0 20px;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.balon3 {
+  background-color: wheat;
+  height: 150px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  float: left;
+  border-radius: 30px;
+  margin: 0 20px;
+  font-style: bold;
+  font-size: 20px;
+}

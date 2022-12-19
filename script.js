@@ -6,17 +6,12 @@ Health: 100
 Attack: 10
 Defence: 10
 __
-+5 Skill for each Player
-Her bir skill’de
--Health +10 artar
--Attack/Defence +5 artar
-__
 Attack 
 Standart : 4/5 İhtimal Attack değeri kadar
 Double: 1/5 İhtimal
 __
 Defence 
-Standart: Defence/60 ihtimal blok
+Standart: Defence/60 ihtimal Blok
 */
 
 // Music
